@@ -1,79 +1,103 @@
-# 🚀 Flutter Folder
+# 🍔 Meal Order App
 
 <p align="center">
-  A sleek Flutter starter project built for scalable mobile apps.
+  A modern Flutter food ordering app with clean architecture and smooth user experience.
 </p>
 
----
-
-## ✨ Features
-- ⚡ Fast setup  
-- 🧱 Clean architecture  
-- 🔄 Ready for API integration  
-- 🎯 Easy to scale  
-
----
-
-## 📸 Preview
 <p align="center">
   <img src="https://via.placeholder.com/250x500" alt="App Preview">
 </p>
 
 ---
 
-## ⚙️ Getting Started
-
-git clone <repo-link>  
-cd flutter_folder  
-flutter pub get  
-flutter run  
+## ✨ About the App
+Meal Order App is a mobile application built with Flutter that allows users to browse meals, place orders, and manage their bookings with ease.  
+Designed with scalability and simplicity in mind, it demonstrates solid mobile development practices.
 
 ---
 
-## 🗂️ Project Structure
-
-lib/
-├── categories/
-│   ├── DessertsScreen.dart
-│   ├── DrinkScreen.dart
-│   └── MainDishesScreen.dart
-│
-├── managers/
-│   └── OrderManager.dart
-│
-├── screens/
-│   ├── BonusScreen.dart
-│   ├── BookPlaceScreen.dart
-│   ├── BookingHistoryScreen.dart
-│   ├── CartScreen.dart
-│   ├── HomeScreen.dart
-│   ├── MyOrdersScreen.dart
-│   ├── OrderSummaryScreen.dart
-│   └── WelcomeScreen.dart
-│
-├── MealFactory.dart
-├── MealOrderApp.dart
-├── NavigatorHelper.dart
-└── main.dart
+## 🚀 Features
+- 🥗 Browse meals by category (Desserts, Drinks, Main Dishes)
+- 🛒 Add items to cart and manage orders
+- 📦 View order history
+- 📅 Book places in advance
+- 🎁 Bonus / special offers screen
+- ⚡ Smooth navigation between screens
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 - Flutter  
 - Dart  
+- Material UI  
+
+---
+
+## 🧠 Architecture Highlights
+- Separation of UI and business logic  
+- Reusable components and screens  
+- Centralized navigation handling  
+- Scalable structure for future backend integration  
+
+---
+
+## 📸 Screens Included
+- Welcome Screen  
+- Home Screen  
+- Cart Screen  
+- Order Summary  
+- Booking System  
+- Order History  
+- Bonus Features  
+
+---
+
+## 🛠️ Getting Started
+
+Clone the project:
+
+git clone <your-repo-link>
+cd flutter_folder
+
+
+Install dependencies:
+
+flutter pub get
+
+
+Run the app:
+
+flutter run
+
 
 ---
 
 ## 📦 Build
 
-flutter build apk  
+To generate APK:
+
+flutter build apk
+
 
 ---
 
-## 📚 Documentation
-https://docs.flutter.dev/
+## 📚 Learn More
+Flutter documentation: https://docs.flutter.dev/
 
 ---
 
-## 💡 Tip
-Replace the preview image with real screenshots of your app to make your README look much more professional.
+## 💡 Future Improvements
+- 🔐 User authentication  
+- ☁️ Backend integration (Firebase / REST API)  
+- 💳 Payment system  
+- 🌍 Multi-language support  
+
+---
+
+## 👨‍💻 Author
+Developed as a Flutter learning project with focus on clean UI and scalable architecture.
+
+---
+
+## ⭐ Tip
+Add real app screenshots or a GIF demo — that’s what makes your README stand out instantly.
