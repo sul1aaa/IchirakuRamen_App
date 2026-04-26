@@ -32,12 +32,29 @@ flutter run
 
 ## 🗂️ Project Structure
 
-lib/  
- ├── main.dart  
- ├── screens/  
- ├── widgets/  
- ├── services/  
- └── models/  
+lib/
+├── categories/
+│   ├── DessertsScreen.dart
+│   ├── DrinkScreen.dart
+│   └── MainDishesScreen.dart
+│
+├── managers/
+│   └── OrderManager.dart
+│
+├── screens/
+│   ├── BonusScreen.dart
+│   ├── BookPlaceScreen.dart
+│   ├── BookingHistoryScreen.dart
+│   ├── CartScreen.dart
+│   ├── HomeScreen.dart
+│   ├── MyOrdersScreen.dart
+│   ├── OrderSummaryScreen.dart
+│   └── WelcomeScreen.dart
+│
+├── MealFactory.dart
+├── MealOrderApp.dart
+├── NavigatorHelper.dart
+└── main.dart
 
 ---
 
